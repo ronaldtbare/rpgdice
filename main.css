@@ -1,0 +1,85 @@
+body{
+  background-image: linear-gradient(lightgray, gray);
+}
+
+.banner {
+  background-image: linear-gradient(lightgreen, darkgreen);
+  color: white;
+  text-align: right;
+  padding: 20px;
+}
+
+#title {
+  position: relative;
+ text-align: center;
+}
+
+#banner{
+  position: relative;
+  text-align: center;
+}
+
+.dice {
+  padding: 2rem;
+  text-align: center;
+}
+
+form {
+ display:flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+}
+
+.die {
+  font-size: 1.5rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+.parchment {
+  position: absolute;
+  text-align: center;
+  padding: 2rem;
+  /* background-image: url("/img/oldscroll.png"); */
+}
+
+.number {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+fieldset {
+  padding:1rem;
+  border-style: solid;
+  border-width: 3px;
+  border-color:black;
+  border-radius: 1rem;
+}
+
+#yourRoll {
+  font-size: 6rem;
+  color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 30% 30%;
+}
+
+#rollbutton {
+  font-size: 2rem;
+  padding-right:2rem;
+  padding-left: 2rem;
+  border-style: solid;
+  border-width: 3px;
+  border-color:black;
+  border-radius: 1rem;
+  background-color: green;
+  color: white;
+}
